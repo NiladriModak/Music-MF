@@ -11,7 +11,7 @@ export default defineConfig({
       name: "main_app",
       remotes: {
         music_remote: {
-          external: "http://localhost:3001/assets/remoteEntry.js",
+          external: "https://music-mf-8qfe.vercel.app/assets/remoteEntry.js",
         },
       },
       shared: ["react", "react-dom"],
